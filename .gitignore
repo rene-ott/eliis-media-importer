@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment / secrets — never commit real cookies or tokens
+.env
+.env.local
+*.local
+
+# SQLite databases
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Saved raw API responses (may contain private data)
+raw-responses/
+
+# Downloaded media binaries (private)
+media/
+
+# Logs / OS noise
+*.log
+.DS_Store

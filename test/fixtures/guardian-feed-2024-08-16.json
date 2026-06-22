@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "date": "2024-08-16",
+      "diaries": [
+        {
+          "id": 6961672,
+          "course": "Example Group",
+          "texts": [],
+          "comment": null,
+          "status": {
+            "id": 1439,
+            "kindergarten_id": 349,
+            "name": "Example",
+            "type": 1,
+            "icon": "mdi-check",
+            "color": "#A5C365",
+            "meals": 1,
+            "created_at": "2021-02-28T02:08:37.000000Z",
+            "updated_at": "2024-05-23T21:57:04.000000Z",
+            "created_by": 10482,
+            "updated_by": null
+          }
+        }
+      ],
+      "evaluations": []
+    },
+    {
+      "date": "2024-08-15",
+      "diaries": [
+        {
+          "id": 6957152,
+          "course": "Example Group",
+          "texts": [],
+          "comment": null,
+          "status": {
+            "id": 1439,
+            "kindergarten_id": 349,
+            "name": "Example",
+            "type": 1,
+            "icon": "mdi-check",
+            "color": "#A5C365",
+            "meals": 1,
+            "created_at": "2021-02-28T02:08:37.000000Z",
+            "updated_at": "2024-05-23T21:57:04.000000Z",
+            "created_by": 10482,
+            "updated_by": null
+          }
+        }
+      ],
+      "evaluations": []
+    }
+  ],
+  "next_date": null
+}

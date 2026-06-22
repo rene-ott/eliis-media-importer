@@ -1,0 +1,26 @@
+{
+  "name": "eliis-media-importer",
+  "version": "0.1.0",
+  "description": "CLI tool that fetches ELIIS guardian-feed data, extracts media metadata, and stores request history + media files in SQLite.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "bin": {
+    "eliis-media-importer": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.ts",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "inspect": "node --disable-warning=ExperimentalWarning scripts/inspect.ts",
+    "download-media": "node --disable-warning=ExperimentalWarning scripts/download-media.ts",
+    "sanitize-examples": "node scripts/sanitize-examples.ts"
+  },
+  "comment": "Zero runtime dependencies: uses Node's built-in node:sqlite, node:test, and native TypeScript type-stripping. Requires Node >= 22.5 (node:sqlite); developed/tested on Node 24. devDependencies are OPTIONAL and only needed for `npm run typecheck`.",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
